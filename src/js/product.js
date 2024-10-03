@@ -18,5 +18,3 @@ document
   .addEventListener("click", addToCartHandler);
 
 
-  const productId = getParam('product');
-  findProductById(productId).then(console.log);
