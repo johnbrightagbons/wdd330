@@ -18,3 +18,10 @@ const productListing = new ProductListing('tents', productDataInstance, productL
 
 // Initialize the product listing (load and display products)
 productListing.init();
+
+
+// Import the loadHeaderFooter function
+import { loadHeaderFooter } from './utils.mjs';
+
+// Call the function to load the header and footer into the DOM
+loadHeaderFooter();
